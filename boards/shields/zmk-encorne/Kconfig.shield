@@ -1,0 +1,5 @@
+config SHIELD_ENCORNE_LEFT
+    def_bool $(shields_list_contains,encorne_left)
+
+config SHIELD_ENCORNE_RIGHT
+    def_bool $(shields_list_contains,encorne_right)
