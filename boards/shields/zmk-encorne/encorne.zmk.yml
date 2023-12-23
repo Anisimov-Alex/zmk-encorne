@@ -1,0 +1,13 @@
+file_format: "1"
+id: encorne
+name: EnCorne
+type: shield
+url: https://github.com/anisimov-alex/zmk-encorne
+requires: [nice_nano_v2]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - encorne_left
+  - encorne_right
