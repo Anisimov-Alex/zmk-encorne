@@ -36,7 +36,7 @@
                 };
         };
         behaviors {
-                browser_encoder: rgb_encoder {
+                browser_encoder: browser_encoder {
                         compatible = "zmk,behavior-sensor-rotate";
                         #sensor-binding-cells = <0>;
                         bindings = <&next_tab>, <&prev_tab>;
